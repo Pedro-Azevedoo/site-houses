@@ -1,0 +1,41 @@
+@import '../../../styles/global';
+
+.findProperty{
+    background-color: rgb(249, 252, 255);
+    display: flex;
+    .left{
+        margin-left: $pattern-left-breathe;
+        padding-top: 10.5rem;   
+        max-width: 41.5625rem;
+        width: 100%;
+        
+
+        h1{
+            font-size: 3.75rem;
+            color: $gray-title;
+        }
+
+        p{
+            font-size: 1.125rem;
+            color: $gray-paragraph;
+            margin-top: 2rem;
+            max-width: 36rem;
+            width: 100%;
+        }
+
+        button{
+            margin-top: 2.5rem;
+            width: 10.8125rem;
+            height: 3.875rem;
+            background-color: $primary;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: $white;
+        }
+
+        img{
+            width: 100%;
+            max-width: 53.125rem;
+        }
+    }
+}

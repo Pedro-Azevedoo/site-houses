@@ -1,0 +1,26 @@
+.teste{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    gap: 1rem;
+
+    h1, h3{
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+        
+    }
+    input{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        font-size: 2rem;
+        width: 14rem;
+        height: 4rem;
+        text-align: center;
+    }
+
+}

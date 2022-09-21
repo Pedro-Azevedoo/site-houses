@@ -1,0 +1,32 @@
+@import '../../../styles/global';
+
+.knowMore{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    .container{
+        margin-top: 7.5rem;
+        width: 100%;
+        max-width: $pattern-width;
+        display: flex;
+        justify-content: space-between;
+        .left{
+            .leftRelative{
+                display: flex;
+                justify-content: left;
+                // width: 31.875rem;
+                
+                .imgBuild{
+                    
+                }
+                
+                .imgFamily{
+                    transform:translate(50%, 50%);
+                }
+            }
+
+
+        }
+    }
+}

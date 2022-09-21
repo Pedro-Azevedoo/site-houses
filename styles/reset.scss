@@ -1,0 +1,31 @@
+@import './global';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    transition: all ease 5s;
+    font-family: 'Roboto', sans-serif;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+button{
+    border: none;
+}
+
+body{
+    transition: all ease 0.5s;
+}
+
+main{
+    padding-top: 80px;
+}
+
