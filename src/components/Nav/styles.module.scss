@@ -1,0 +1,90 @@
+@import '../../../styles/global';
+
+.nav{
+    z-index: 9999;
+    
+    .infos{
+        background-color: $primary;
+        width: 100%;
+        height: 3.875rem;
+        display: flex;
+        justify-content: center;
+        transition: 0.6s;
+        
+        .container{
+            max-width: $pattern-width;
+            display: flex;
+            align-items: center;
+
+            .left{
+                gap: 1.5rem;
+                display: flex;
+            }
+        }
+    }
+    .bgNavScroll{
+        position: fixed;
+        top: 0;
+    }
+    
+    .bgNav{
+        background-color: $white;
+        width: 100%;
+        height: 3.875rem;
+        display: flex;
+        justify-content: center;
+        box-shadow: 0 0.2rem 1.8rem rgba(0, 0, 0, 0.1);
+        z-index: 9999;
+        transition: 0.6s;
+        
+        
+        .container{
+            min-width: $pattern-width;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .left{
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                float: left;
+
+                label{
+                    font-weight: 500;
+                    font-size: 1.75rem;
+                    color: $gray-label;
+                }
+
+            }
+
+            .right{
+                display: flex;
+                align-items: center;
+                float: right;
+
+                
+                ul{
+                    gap: 2rem;
+                    display: flex;
+                    align-items: center;
+
+                    li{
+                        color: rgba(51, 51, 51, 1);
+
+                        button{
+                            padding: 0.5rem;
+                            background: linear-gradient(138.81deg, #10a4d3 0%, #0984e3 99.79%);
+                            border:none;
+                            border-radius: 0.5rem;
+                            font-size: 1.1rem;
+                            color: $white;
+                            
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

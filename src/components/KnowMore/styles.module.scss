@@ -1,0 +1,86 @@
+@import '../../../styles/global';
+
+.knowMore{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    .container{
+        margin-top: 7.5rem;
+        width: 100%;
+        max-width: $pattern-width;
+        display: flex;
+        gap: 3.75rem;
+
+        .left{
+            width: calc(50% - 30px);
+
+            .leftRelative{
+                display: flex;
+                justify-content: left;
+                position: relative;
+                // width: 31.875rem;
+                
+                .imgBuild{
+                }
+                
+                .imgFamily{
+                    position: absolute;
+                    left: 100px;
+                    top: 150px;
+                }
+            }
+
+
+        }
+
+        .right{
+            width: calc(50% - 30px);
+
+            .title{
+                display: flex;
+                align-items: center;
+                gap: 0.75rem;
+                
+            }
+            
+            h2{
+                margin-top: 1.125rem;
+                font-size: 2.1rem;
+                font-weight: 700;
+            }
+            
+            p{
+                margin-top: 1.875rem;
+                font-size: 1.125rem;
+                text-align: justify;
+                color: $gray-paragraph;
+            }
+            
+            .years{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 6.25rem;
+                margin-top: 1.875rem;
+                gap: 1rem;
+                width: 88%;
+                
+                background-color: rgba(238, 247, 255, 1);
+                
+                border-left:  0.625rem Solid rgba(9, 132, 227, 1);
+                
+                h2{
+                    margin: 0;
+                    color: rgba(9, 132, 227, 1);
+                }
+                
+                h4{
+                    color: $gray-paragraph;
+                    font-size: 1.5rem;
+                    font-weight: 400; 
+                }
+            }
+        }
+    }
+}

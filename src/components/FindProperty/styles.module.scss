@@ -1,0 +1,59 @@
+@import '../../../styles/global';
+
+.findProperty{
+    background-color: rgb(249, 252, 255);
+    display: flex;
+    justify-content: center;
+
+    .container{
+        width: 100%;
+        max-width: $pattern-width;
+        display:flex;
+        height: 45rem;
+        
+        
+        .left{
+            padding-top: 10.5rem;   
+            float: left;
+            min-width: 50%;
+    
+            h1{
+                font-size: 3.75rem;
+                color: $gray-title;
+            }
+    
+            p{
+                font-size: 1.125rem;
+                color: $gray-paragraph;
+                margin-top: 2rem;
+                max-width: 36rem;
+                width: 100%;
+            }
+    
+            button{
+                margin-top: 2.5rem;
+                width: 10.8125rem;
+                height: 3.875rem;
+                background-color: $primary;
+                font-size: 1.1rem;
+                font-weight: 600;
+                color: $white;
+            }
+    
+        }
+        .imgHero{
+            height: 45rem;
+            position: absolute;
+            right: calc(calc((100vw - 100%) / 2) - 0.55rem);
+            flex-basis: 50%;
+            width: 40%;
+            transform: scale(1);
+            background-image: url('../../../public/images/img-family-children.png');
+            background-repeat: no-repeat;
+            background-position: 50%;
+            background-size: cover;
+            // transform: scale(1);
+            
+        }
+    }
+}
